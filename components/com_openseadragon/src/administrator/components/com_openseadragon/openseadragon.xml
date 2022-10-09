@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" method="upgrade">
+<name>COM_OPENSEADRAGON</name>
+<creationDate>9 septembre 2022</creationDate>
+<author>SgtCoignet</author>
+<authorEmail>sgtcoignet@gmail.com</authorEmail>
+<authorUrl>https://sgtcoignet.fr</authorUrl>
+<copyright>Copyright (C) 2022 SgtCoignet. All right reserved.</copyright>
+<license>GNU General Public License version 2 or later;</license>
+<description>COM_OPENSEADRAGON_XML_DESCRIPTION</description>
