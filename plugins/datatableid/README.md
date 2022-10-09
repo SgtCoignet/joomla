@@ -6,5 +6,5 @@
  * @since  4.0
  */
  
-// See : https://docs.joomla.org/J4.x:Creating_a_Plugin_for_Joomla
-// See : https://docs.joomla.org/J4_Plugin_example_-_Table_of_Contents
+<br />// See : https://docs.joomla.org/J4.x:Creating_a_Plugin_for_Joomla
+<br />// See : https://docs.joomla.org/J4_Plugin_example_-_Table_of_Contents
