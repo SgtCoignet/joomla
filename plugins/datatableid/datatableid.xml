@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="content" method="upgrade">
+	<name>plg_content_datatableid</name>
+	<author>SgtCoignet</author>
+	<creationDate>June 2022</creationDate>
+	<copyright>Copyright (C) 2022 SgtCoignet All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>admin@sgtcoignet.fr</authorEmail>
+	<authorUrl>sgtcoignet.fr</authorUrl>
+	<version>1.0.0</version>
+	<description>PLG_CONTENT_DATATABLEID_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="datatableid">datatableid.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB/plg_content_datatableid.ini</language>
+		<language tag="en-GB">en-GB/plg_content_datatableid.sys.ini</language>
+    <language tag="fr-FR">fr-FR/plg_content_datatableid.ini</language>
+		<language tag="fr-FR">fr-FR/plg_content_datatableid.sys.ini</language>
+	</languages>
+</extension>
