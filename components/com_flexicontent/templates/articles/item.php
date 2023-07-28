@@ -205,7 +205,7 @@ $microdata_itemtype_code = 'itemscope itemtype="http://schema.org/'.$microdata_i
 			<?php foreach ($item->positions['subtitle1'] as $field) : ?>
 			<div class="flexi element field_<?php echo $field->name; ?>">
 				<?php if ($field->label) : ?>
-				<span class="flexi label field_<?php echo $field->name; ?>"><?php echo $field->label; ?></span>
+				<span class="flexi label field_<?php echo $field->name; ?>"><?php echo $field->label; ?>&nbsp;:&nbsp;</span>
 				<?php endif; ?>
 				<div class="flexi value field_<?php echo $field->name; ?>"><?php echo $field->display; ?></div>
 			</div>
