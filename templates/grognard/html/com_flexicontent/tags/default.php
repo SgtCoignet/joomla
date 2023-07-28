@@ -64,7 +64,7 @@ if ($menu) $page_classes .= ' menuitem'.$menu->id;
 <!--script>
 </script-->
 
-<div id="flexicontent" class="flexicontent sgtcoignet <?php echo $page_classes; ?>" >
+<div id="flexicontent" class="flexicontent <?php echo $page_classes; ?>" >
 
 
 <!-- BOF buttons -->
