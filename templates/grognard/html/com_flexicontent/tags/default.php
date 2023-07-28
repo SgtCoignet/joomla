@@ -93,7 +93,7 @@ if (JFactory::getApplication()->input->getInt('print', 0)) {
 
 <?php if ( $this->params->get( 'show_page_heading', 1 ) ) : ?>
 	<h1 class="componentheading">
-		<?php echo $this->params->get('page_heading'); ?>
+		<?php echo ucfirst(strtolower($this->tag->name)); //$this->params->get('page_heading'); ?>
 	</h1>
 <?php else : ?>
 	<h2 class="contentheading">
