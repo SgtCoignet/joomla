@@ -53,7 +53,7 @@ $page_heading_shown =
 $mainAreaTag = 'div';
 
 // SEO, header level of title tag
-$itemTitleHeaderLevel = '2';
+$itemTitleHeaderLevel = '1';
 	
 // SEO, header level of tab title tag
 $tabsHeaderLevel = $itemTitleHeaderLevel == '2'  ?  '3' : '2';  	
@@ -69,6 +69,8 @@ if ($menu) $page_classes .= ' menuitem'.$menu->id;
 $microdata_itemtype = $this->params->get( 'microdata_itemtype', 'Article');
 $microdata_itemtype_code = 'itemscope itemtype="http://schema.org/'.$microdata_itemtype.'"';
 ?>
+
+	<!-- BOF Template Aricle -->
 
 <?php echo '<'.$mainAreaTag; ?> id="flexicontent" class="<?php echo $page_classes; ?> " <?php echo $microdata_itemtype_code; ?>>
 	
@@ -198,7 +200,7 @@ $microdata_itemtype_code = 'itemscope itemtype="http://schema.org/'.$microdata_i
 
 
 	<?php if (isset($item->positions['subtitle1'])) : ?>
-		<!-- BOF subtitle1 block -->
+		<!-- BOF subtitle1 Article After Title row 1 block -->
 		<div class="flexi lineinfo subtitle1 ">
 			<?php foreach ($item->positions['subtitle1'] as $field) : ?>
 			<div class="flexi element field_<?php echo $field->name; ?>">
@@ -214,7 +216,7 @@ $microdata_itemtype_code = 'itemscope itemtype="http://schema.org/'.$microdata_i
 	
 	
 	<?php if (isset($item->positions['subtitle2'])) : ?>
-		<!-- BOF subtitle2 block -->
+		<!-- BOF subtitle2 Article After title row 2 block -->
 		<div class="flexi lineinfo subtitle2 ">
 			<?php foreach ($item->positions['subtitle2'] as $field) : ?>
 			<div class="flexi element field_<?php echo $field->name; ?>">
@@ -230,7 +232,7 @@ $microdata_itemtype_code = 'itemscope itemtype="http://schema.org/'.$microdata_i
 	
 	
 	<?php if (isset($item->positions['subtitle3'])) : ?>
-		<!-- BOF subtitle3 block -->
+		<!-- BOF subtitle3 Article After Title row 3 block -->
 		<div class="flexi lineinfo subtitle3 ">
 			<?php foreach ($item->positions['subtitle3'] as $field) : ?>
 			<div class="flexi element field_<?php echo $field->name; ?>">
